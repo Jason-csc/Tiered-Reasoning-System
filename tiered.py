@@ -5,6 +5,7 @@ from torch.utils.data import Dataset, DataLoader
 import math
 import progressbar
 import gc
+from model import TieredModel
 
 
 def saveModel(model,epoch,weight,lr,acc1,acc2,DRIVE_PATH):
